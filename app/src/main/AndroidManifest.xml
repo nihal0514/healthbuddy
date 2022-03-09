@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthbuddy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthBuddy">
+        <activity
+            android:name=".labtest.LabTestDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".covidstatistics.CovidDataNew"
+            android:exported="false" />
+        <activity
+            android:name=".signin.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctortab.PatientList"
+            android:exported="false" />
+        <activity
+            android:name=".demo.LoginUiDemo"
+            android:exported="false" />
+        <activity
+            android:name=".labtest.Lab_Test"
+            android:exported="false" />
+        <activity
+            android:name=".chats.chatfragment.PrivateEmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chats.chatfragment.MessageActivity"
+            android:exported="false" />
+        <activity android:name=".consult.DoctorAppointmentDetail" />
+        <activity android:name=".consult.PatientAppointment" />
+        <activity android:name=".consult.DoctorAppointment" />
+        <activity android:name=".healthtips.ViewHealthTipActivity" />
+        <activity android:name=".healthtips.HealthTipActivity" />
+        <activity android:name=".shop.CartActivity" />
+        <activity android:name=".covidstatistics.MyCountryStats" />
+        <activity android:name=".covidstatistics.Global" />
+        <activity android:name=".covidstatistics.CovidStatistics" />
+        <activity android:name=".covidstatistics.Coviddata" />
+        <activity android:name=".shop.MedicinesActivity" />
+        <activity android:name=".consult.Doctor_setup_activity" />
+        <activity android:name=".signin.DoctorRegister" />
+        <activity android:name=".consult.DoctorDetails" />
+        <activity android:name=".consult.DoctorList" />
+        <activity android:name=".menu.TestBookings" />
+        <activity android:name=".menu.FAQS" />
+        <activity android:name=".menu.Appointment" />
+        <activity android:name=".signin.SetupActivity" />
+        <activity android:name=".signin.RegisterActivity" />
+        <activity android:name=".Home.MainActivity" />
+        <activity android:name=".consult.consultactivity" />
+        <activity android:name=".shop.shopdetail" />
+        <activity android:name=".shop.shop" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.HealthBuddy" />
+        <activity
+            android:name=".Home.ImpActivity"
+            android:parentActivityName=".Home.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

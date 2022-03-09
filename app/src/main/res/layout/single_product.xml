@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_product"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@color/color9">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="118dp"
+                android:layout_height="100dp"
+                android:src="@drawable/medicine4"
+                android:layout_below="@+id/img_fav_product"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_name_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multivitamins"
+                android:textColor="@color/Black"
+                android:layout_below="@id/image_product"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_pills_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pils_90"
+                android:textColor="@color/Black"
+                android:layout_below="@id/tv_name_product"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_final_price_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/final_price_100"
+                android:layout_below="@id/tv_pills_product"
+                android:textColor="@color/Black"
+                android:layout_margin="6dp"/>
+            <TextView
+                android:id="@+id/tv_price_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/final_price_100"
+                android:layout_margin="6dp"
+                android:layout_below="@id/tv_pills_product"
+                android:layout_toEndOf="@id/tv_final_price_product"
+                android:layout_toRightOf="@id/tv_final_price_product" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

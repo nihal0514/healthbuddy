@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/color9">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/doctor"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/doctor"
+            android:layout_margin="6dp"/>
+        <TextView
+            android:id="@+id/doctorlist_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOCTOR USER1"
+            android:textColor="@color/Black"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/doctor"
+            android:layout_toRightOf="@id/doctor" />
+
+
+
+
+    </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/color9">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/doctor_appoint_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor Name : "
+                android:textColor="@color/Black"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/doctorappointname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multivitamins"
+                android:textColor="@color/Black"
+                android:layout_toRightOf="@+id/doctor_appoint_name"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/doctorphoneappoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctorappointname_tv"
+                android:text="Phone:  "
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/doctorappointphonetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctorappointname_tv"
+                android:layout_toRightOf="@id/doctorphoneappoint"
+                android:text="Price "
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/doctortime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctorappointphonetv"
+                android:text="Time:  "
+                android:textColor="@color/Black" />
+            <TextView
+                android:id="@+id/doctortime_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:layout_below="@id/doctorappointphonetv"
+                android:layout_toRightOf="@+id/doctortime"
+                android:textColor="@color/Black"
+/>
+
+            <TextView
+                android:id="@+id/doctormeetingid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctortime"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:text="Meeting link:"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/doctor_meeting_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctortime"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_toRightOf="@id/doctormeetingid"
+                android:text="TotalPrice"
+                android:textColor="@color/Black" />
+
+            <Button
+                android:id="@+id/meeting_link_copy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_meeting_id_tv"
+                android:layout_centerInParent="true"
+                android:text="Copy meeting link" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

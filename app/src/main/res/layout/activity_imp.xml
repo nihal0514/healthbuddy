@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.ImpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:letterSpacing="0.02"
+        android:text="Choose Best\nConsultant Doctor"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.02"
+        android:text="Find the best doctors, consultants and specialist\nin your town city. Easy to collaborate"
+        android:textColor="#888888"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/getstarted"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:shadowColor="#000"
+        android:text="Get Started Now!"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_img" />
+
+</LinearLayout>

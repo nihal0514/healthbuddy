@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".labtest.Lab_Test">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/labimagescan"
+        android:layout_width="210dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/brain_image"/>
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="310dp"
+        app:layout_constraintEnd_toEndOf="@id/labimagescan"
+        app:layout_constraintStart_toStartOf="@id/labimagescan"
+        app:layout_constraintTop_toBottomOf="@id/labimagescan"
+        />
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict Image"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="438dp"
+        app:layout_constraintEnd_toEndOf="@id/select"
+        app:layout_constraintStart_toStartOf="@id/select"
+        app:layout_constraintTop_toBottomOf="@id/select"/>
+
+    <TextView
+        android:id="@+id/output_text"
+        android:layout_width="189dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/predict"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="@id/predict"
+        app:layout_constraintTop_toBottomOf="@id/predict" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

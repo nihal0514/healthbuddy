@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthtips.HealthTipActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Frequency"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Days"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicines Instructions"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/btn_get_all_students"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All Medicines notes" />
+
+</LinearLayout>

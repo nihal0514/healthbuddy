@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable-v24/ic_add_black_24dp.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable-v24/ic_arrow_back_black_24dp.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/forget.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/ic_illustration_login.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/ic_register_hero.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/rcv_msg.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/snd_msg.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/drawable/two_corners_rec.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_appointment.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_cart.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_consultactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_doctor_appointment.xml" value="0.1160081053698075" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_doctor_appointment_detail.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_doctor_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_doctor_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_global.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_health_tip.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_imp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_lab_test.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_lab_test_display.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_login_ui_demo.xml" value="0.1" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_medicines.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_patient_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_private_empty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_shopdetail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_view_health_tip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/android_lab_test_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/app_bar_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/app_bar_layout1.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/appointmentlist.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/chat_item_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/chat_ui.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/covid_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/covid_data_new.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/doctor_appointment_ite.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/doctors_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/doctors_item_ui.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/fragment_chats.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/fragment_doctors.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/ic_add_black_24dp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/ic_arrow_back_black_24dp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_health.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_mycart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_mycartnew.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/labtest_item_sv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/labtest_item_sv2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/login_1.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/login_ui.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/navigation_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/patient_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/recyvdoctor_list.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/register_ui_demo.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/single_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/single_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/menu/bottom_navigation.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/menu/mail_tool.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nihal/AndroidStudioProjects/HealthBuddy/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_doctor_appointment_detail.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_message.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_my_country_stats.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_private_empty.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/activity_shop.xml" value="0.10552536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/app_bar_layout.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/chat_item_left.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/chat_item_right.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/doctors_item.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/fragment_chats.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/fragment_doctors.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/fragment_users.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_product.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/layout/item_shop.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HealthBuddy/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

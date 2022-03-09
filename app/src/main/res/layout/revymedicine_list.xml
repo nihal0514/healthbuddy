@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/color9">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_product_shop"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/medicine4"
+                android:layout_margin="6dp"/>
+            <TextView
+                android:id="@+id/tv_name_product_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multivitamins"
+                android:textColor="@color/Black"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/img_product_shop"
+                android:layout_toRightOf="@id/img_product_shop" />
+            <TextView
+                android:id="@+id/tv_pills_product_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pils_90"
+                android:textColor="@color/Black"
+                android:layout_below="@id/tv_name_product_shop"
+                android:layout_toEndOf="@id/img_product_shop"
+                android:layout_toRightOf="@id/img_product_shop"
+                android:layout_centerHorizontal="true"/>
+            <ImageButton
+                android:id="@+id/img_fav_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_baseline_favorite_border_24"
+                android:background="@null"
+                android:layout_alignParentEnd="true"
+                android:foreground="?attr/selectableItemBackground"
+
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_final_price_product_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/final_price_100"
+                android:layout_below="@id/tv_pills_product_shop"
+                android:layout_toEndOf="@id/img_product_shop"
+                android:layout_toRightOf="@id/img_product_shop"
+                android:textColor="@color/Black"
+                android:layout_margin="6dp"/>
+            <TextView
+                android:id="@+id/tv_price_product_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_120"
+                android:layout_margin="6dp"
+                android:layout_below="@id/tv_pills_product_shop"
+                android:layout_toEndOf="@id/tv_final_price_product_shop"
+                android:layout_toRightOf="@id/tv_final_price_product_shop" />
+            <ImageButton
+                android:id="@+id/fab_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_baseline_add_24"
+                android:background="@color/color8"
+                android:layout_below="@+id/img_fav_product"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:tint="@color/white" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
